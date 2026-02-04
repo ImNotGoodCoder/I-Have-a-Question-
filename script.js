@@ -8,7 +8,7 @@ function selectOption(option) {
         flashRainbowColors(function() {
             document.getElementById('question').innerHTML =
 `That was the only correct answer 😌<br>
-<span class="subline">See your fine self on the 14th? </span>`; // Hide the question
+<span class="subline">See your fine self on the 14th?</span>`; // Hide the question
             displayCatHeart(); // Display the cat-heart.gif
         });
     } else if (option === 'no') {
