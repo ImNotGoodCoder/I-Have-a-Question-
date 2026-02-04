@@ -6,8 +6,7 @@ function selectOption(option) {
     if (option === 'yes') {
         // Flash rainbow colors
         flashRainbowColors(function() {
-            document.getElementById('question').innerHTML =
-"That was the only correct answer 😌<br><span style='font-size:32px;'>See your fine self on the 14th? 💘</span>"; // Hide the question
+            document.getElementById('question').innerText = "That was the only correct answer 😌<br>See your fine self on the 14th? 💘"; // Hide the question
             displayCatHeart(); // Display the cat-heart.gif
         });
     } else if (option === 'no') {
